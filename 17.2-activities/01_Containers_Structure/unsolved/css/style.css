@@ -1,1 +1,83 @@
 /*  Hi! your going to write styles here in the next couple activities. */
+.header {
+    height:250px;
+    max-height:500px;
+    background-image: url(../images/upsBackground.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:bottom;
+}
+
+#pagetopic {
+    text-align: center;
+}
+
+.colorContainer {
+    display:inline-block;
+    margin:15px;
+}
+.swatch {
+    height:200px;
+    width: 170px;
+    border:  1px solid black;
+}
+.hexCode {
+    padding:15px;
+    text-align:center;
+    border:1px solid black;
+    border-top:none;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+
+}
+
+.typeContainer {
+    display:inline-block;
+    margin:20px;
+}
+
+.button {
+    display:inline-block;
+    padding:15px;
+    margin:15px;
+    width:150px;
+    text-align:center;
+    color:white;
+}
+
+.darkblue {
+    background-color:#333366;
+}
+.darkgrey {
+    background-color:#545454;
+}
+
+.lightgrey {
+    background-color:#e3e3e3;
+}
+
+.white {
+    background-color:#ffffff;
+}
+
+
+.red {
+    background-color:#f84848;
+}
+
+.orange {
+    background-color:#fc7705;
+}
+
+.lightblue {
+    background-color:#13a0f6;
+}
+
+.lightgreen {
+    background-color:#8abe48;
+}
+
+
+
+
+

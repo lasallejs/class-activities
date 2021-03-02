@@ -4,10 +4,9 @@ body {
 }
 
 h1 {
-    background-color:#000;
-    color: white;
+    background-color:#000; 
+    color: white; 
     text-align:center;
-
 }
 
 ol { 
@@ -18,4 +17,6 @@ img {
     
 }
 
-p {text-align:center; }
+p {
+    text-align:center; 
+}
