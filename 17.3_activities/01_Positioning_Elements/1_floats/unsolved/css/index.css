@@ -2,7 +2,26 @@ h1 {
  font-family: helvetica, arial, sans-serif;
 }
 /* Write your selector for .left below */
+.left {
+    float:left;
+    /* padding-right: 15px;
+    padding:50px; */
+    padding: 10px 50px 20px 5px;
+
+}
+
+/* this is a comment */
+
 
 /* Write your selector for .right below */
 
+.right {
+    float:right;
+    padding-left: 15px;
+}
+
 /* Write your selector for .separator below */
+.separator {
+    width:750px;
+
+}
