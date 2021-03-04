@@ -5,6 +5,26 @@ nav {
 
 /* target the class of inline-block below */
 
+.inline-block {
+  display: inline-block;
+  padding:15px;
+}
+
 /* target the class of .left below */
 
+.left {
+  height:500px;
+  float:left;
+  background-color:lightblue;
+  width:30%;
+
+}
+
+
 /* target the class of .right below */
+.right {
+  height:500px;
+  float:right;
+  background-color:lightgreen;
+  width:70%;
+}
