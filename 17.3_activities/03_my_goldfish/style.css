@@ -5,24 +5,68 @@ nav {
 
 .menu-item { 
     display:inline-block; 
-    padding:10px; 
+  
     text-align: center;
     width:100px;
     vertical-align: middle;
-}
-.sidebar {
-    width:29%;
-    height:500px;
-    background-color: pink; 
-    float: left;
+    background-color:#bbbbbb;
+   
+    height: 30px;
+    padding-top: 20px;
+    
 }
 
+/* pet sidebar */
+
+.pet-info img {
+    width:200px;
+}
+
+
+
+.sidebar {
+    width:25%;
+    height:1000px;
+    background-color: lightyellow;
+    float: left;
+    padding:2%;
+}
+
+.pet-details ul {
+    list-style-type: none;
+    line-height:24px;
+    padding-left:0;
+}
+
+
+.pet-info {
+    border-bottom: 1px solid pink;
+}
+
+
+
+/*main content */
+
+
 .maincontent {
-    width:70%;
+    width:60%;
+    padding:5%;
     float:left;
    
 }
 
 .mainfish {
     width:250px;
+    float:left;
+    margin-right:20px;
 }
+
+
+.images p {
+    display:inline-block;
+}
+.images img { 
+    width:250px;
+}
+
+
