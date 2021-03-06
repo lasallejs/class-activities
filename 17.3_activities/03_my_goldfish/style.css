@@ -14,12 +14,14 @@ nav {
     height: 30px;
     padding-top: 20px;
     
+    
 }
 
 /* pet sidebar */
 
 .pet-info img {
     width:200px;
+    
 }
 
 
@@ -63,10 +65,13 @@ nav {
 
 
 .images p {
-    display:inline-block;
+   /* display:inline-block;*/
+    margin-right:20px;
 }
 .images img { 
     width:250px;
 }
-
+.parent-container {
+    display:flex;
+}
 
