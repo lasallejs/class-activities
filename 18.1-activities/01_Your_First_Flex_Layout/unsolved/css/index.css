@@ -3,18 +3,46 @@
   margin: 10px;
   background-color: orange;
   color: white;
+
 }
 .flex {
   padding: 10px;
   margin: 10px;
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
   /* Set the property display to flex below! */
 }
 #column {
   background-color: #E6F5FF;
+  flex-direction: row;
   /* Set the property flex direction to column below! */
 }
 #row {
   background-color: #FFF7DE;
+  flex-direction: row;
+  
 /* Set the property flex-direction to row below! */
 }
  
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+
+  #column {
+  
+    flex-direction: column;
+    /* Set the property flex direction to column below! */
+  }
+  #row {
+    background-color: #FFF7DE;
+    flex-direction: column;
+  /* Set the property flex-direction to row below! */
+  }
+  
+}
