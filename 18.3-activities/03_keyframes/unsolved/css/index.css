@@ -1,16 +1,20 @@
 .bounceMe {
   /* Add the animation bounceArrow here */
+  animation: spin 2s linear infinite;
 
 }
 .spinMe {
-  /* Add the animation for spin on the line below  */
 
+  /* Add the animation for spin on the line below  */
+ 
+  animation: bounceArrow .7s infinite;
 }
 #progressbar {
   background-color: black;
   border-radius: 5px;
   margin-top: 61px;
   padding: 3px;
+ 
 }
 #progressbar > .orangeBar {
   background-color: red;
@@ -18,11 +22,17 @@
   height: 20px;
   border-radius: 5px;
   /* add the animation name here for the progress bar */
+  animation-fill-mode:forwards;
+  animation: loadBar 4s; 
+  
+
 }
-.movingBox {
+.movingBall {
   width: 50px;
   height: 50px;
   background-color: red;
+  border-radius: 50px;
+  animation: movingBall 20s infinite;
   /* Add the animation name here to mox the box */
 
 }
@@ -30,49 +40,62 @@
 
 @keyframes bounceArrow {
   from {
-
+    margin-top:0;
   }
   50% {
-
+    margin-top:7px;
   }
   to {
-
+    margin-top:0;
   }
 }
 
 @keyframes spin {
   from {
-
+    transform:rotate(-360deg);
   }
   to {
+    transform:rotate(0deg);
 
   }
 }
 
 @keyframes loadBar {
   from {
+    width:40%;
 
   }
   to {
+    width:100%;
 
   }
 }
 
-@keyframes movingBox {
-  from {
+@keyframes movingBall {
+  from { 
+    
+    background-color:red;
+    
 
   }
   25% {
-
+    background-color:teal;
+    transform: translate3d(300px, 0px, 0px)
   }
   50% {
+    background-color:orange;
+    transform: translate3d(900px, 5px, 75px)
 
   }
   75% {
+    background-color:white;
+    border:5px solid yellow;
+    transform: translate3d(500px, 300px, 35px)
 
   }
   to {
-
+    background-color: lightpink;
+    transform:translate3d(0px,0px,0px)
   }
 }
 

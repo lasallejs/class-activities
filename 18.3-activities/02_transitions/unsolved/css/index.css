@@ -19,11 +19,40 @@
   width: 150px;
   text-align: center;
   height: 50px;
+  transition: 0.3s;
+  
   /* Add the css property transition here! */
 
 }
 /* active state */
+
 .hoverMe:hover {
-  /* Add your hover state css here. */
+ 
+  background-color:#990000;
+  transform: scale(2,4);
+  transform: rotate(90deg);
+  text-transform:uppercase ;
+  text-decoration: underline;
+  border-radius:50px;
+  content: "blah";
+  content: " (" attr(href) ")";
+  background-image: url("");
+  transition: all 2s ease-out;
+
+}
+
+
+a { font-size:40px;
+  color:pink;
+  text-decoration: none;
+  display:inline-block;
+  padding:20px;
+
+}
+
+a:hover { 
+  color:blue;
+  font-size:42px;
+  background-color:beige;
 
 }
