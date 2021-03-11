@@ -186,3 +186,29 @@ h4 {
   margin: 0px 0px;
   color: #636364;
 }
+
+
+
+
+@media only screen and (max-width: 1000px) { 
+
+  #categoryGrid {
+    margin:0px 5%;
+    display: grid;
+    grid-template-rows: 300px 300px 300px 300px 300px 300px;
+    grid-template-columns: 1fr ;
+    grid-template-areas:
+    'bookcases'
+    'bedroom'
+    'patio'
+    'couches' 
+    'desks' 
+    ;
+  
+  }
+
+
+
+
+}
+
