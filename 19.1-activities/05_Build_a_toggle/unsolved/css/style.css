@@ -1,1 +1,46 @@
 /* Style your dropdown below! */
+#toggle{ 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin:0 auto;
+    width:300px; 
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#toggle p { 
+    background-color:salmon;
+    color: white;
+    margin-bottom:0;
+    padding:10px;
+      
+}
+#toggle img{ 
+    width:15px;
+    padding-left:5px;
+    padding-right:5px;
+    
+}
+.rotate {
+    transform: rotate(180deg);
+
+}
+
+
+#toggle ul {
+    list-style-type: none;
+    padding-left:0;
+    margin-top:0;
+    border-top:1px solid black;
+    border-right:1px solid black;
+    border-left:1px solid black;
+    display:none;
+} 
+
+#toggle li {
+    border-bottom:1px solid black;
+    padding:10px;
+    cursor:pointer;
+}
+

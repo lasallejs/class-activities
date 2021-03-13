@@ -18,6 +18,10 @@ div {
   height: 150px;
   width: 150px;
 }
+
+.pink {
+  background-color:pink;
+}
 .appendMe {
   outline: 1px solid red;
 }
