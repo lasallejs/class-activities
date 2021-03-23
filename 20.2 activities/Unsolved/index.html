@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
@@ -15,23 +17,23 @@
   <body>
 
     <!-- Navigation bar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="customNav navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#"><img src="images/acoustic-guitar.png" /> Rock Nation </a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#">Venues <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
+            <a class="nav-link" href="#">Artists</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
               aria-haspopup="true" aria-expanded="false">
-              Dropdown
+              Near You
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="#">Action</a>
@@ -40,34 +42,38 @@
               <a class="dropdown-item" href="#">Something else here</a>
             </div>
           </li>
+          <li class="nav-item">
+            <a class="btn btn-primary btn-lg navCTA" href="#" role="button">Buy Tickets</a>
+          </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-        </form>
+     
       </div>
     </nav>
     <!-- End navigation bar -->
 
     <!-- Jumbotron -->
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, world!</h1>
-      <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-      <hr class="my-4">
-      <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    <div class="jumbotron rockBackground">
+      <div class="jumboCopy">
+        <h1 id="hello" class="display-4">It's Time to Rock <br />with Janisa</h1>
+        <p class="lead">Everyday we rock and roll. We dance to the beat. <br />Yes we do and we still code.</p>
+        <hr class="my-4">
+        <p>blah blah blah</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Buy Tickets</a>
+      </div>
     </div>
     <!-- End jumbotron -->
 
     <!-- Cards -->
-    <div class="container-fluid">
-      <div class="row">
+    <div class="container-fluid content">
+      <h2 class="sectionHeading">Shows Near You </h2>
+
+      <div class="row showsNear">
         <!-- Card 1 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
           <div class="card">
-            <img src="images/1_card.png" class="card-img-top" alt="...">
+            <img src="images/show1.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Rocking Guitar Man</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -76,24 +82,24 @@
         <!-- End card 1 -->
 
         <!-- Card 2 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card">
-            <img src="images/2_card.png" class="card-img-top" alt="...">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card ">
+            <img src="images/show2.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Symbols Splash</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <a href="#" class="btn btn-primary">See Dates</a>
             </div>
           </div>
         </div>
         <!-- End card 2 -->
 
         <!-- Card 3 -->
-        <div class="cardContainer col-lg-3 col-md-3 col-sm-6">
-          <div class="card">
-            <img src="images/3_card.png" class="card-img-top" alt="...">
+        <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
+          <div class="card ">
+            <img src="images/show3.jpg" class="card-img-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Concert Hall</h5>
               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
@@ -106,17 +112,18 @@
     <!-- End cards -->
 
     <!-- Content -->
-    <div class="container-fluid">
+    <div class="container-fluid content">
+      <h2 class="sectionHeading"> Why We're Great!</h2>
 
       <!-- Row 1 -->
-      <div class="row">
+      <div class="row valueProp">
         <div class="sideAccent">
         </div>
-        <div class="col-3">
+        <div class="col-3 imageContainer">
           <img src="images/assistance.png">
         </div>
         <div class="col-8">
-          <h3>Title 1</h3>
+          <h3>We're here to Help</h3>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
           </p>
@@ -125,13 +132,50 @@
         </div>
       </div>
       <!-- End row 1 -->
+      <!-- Row 2 -->
+      <div class="row valueProp">
+        <div class="sideAccent">
+        </div>
+        <div class="col-3 imageContainer">
+          <img src="images/refund.png">
+        </div>
+        <div class="col-8">
+          <h3>Best Prices</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+          </p>
+          <a href="#" class="btn btn-primary">Learn More
+          </a>
+        </div>
+      </div>
+      <!-- End row 2 -->
+
+      <!-- Row 3 -->
+      <div class="row valueProp">
+        <div class="sideAccent">
+        </div>
+        <div class="col-3 imageContainer">
+          <img src="images/mail-box.png">
+        </div>
+        <div class="col-8">
+          <h3>Best Shows on Earth!</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
+          </p>
+          <a href="#" class="btn btn-primary">More Shows
+          </a>
+        </div>
+      </div>
+      <!-- End row 3 -->
+
 
     </div>
     <!-- End content -->
 
     <!-- Footer -->
-    <footer>
+    <footer class="emailContain">
       <form>
+        <h3> Join Our Mailing List </h3> 
         <div class="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
