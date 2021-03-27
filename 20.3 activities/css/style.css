@@ -1,0 +1,19 @@
+#hero{
+    /* background-image:url("../images/hero.png");
+    background-repeat: no-repeat; */
+    
+    
+}
+
+#hero .jumbotron {
+    background-image:url("../images/hero.png");
+    background-repeat: no-repeat;
+    height:75vh;
+    background-size: cover;
+    
+    
+}
+
+.jumbotron {
+    
+}
