@@ -213,7 +213,9 @@ h4 {
 }
 
 #subscribe .form-container {
-    padding: 300px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
 
 }
 
@@ -224,7 +226,7 @@ h4 {
 #subscribe input {
     height:50px;
     border-radius: 0;
-    width:75%;
+    width:60%;
     margin-right:20px !important;
   
 
@@ -259,7 +261,5 @@ footer ul li a {
 
 .back-top  img {
     transform: rotate(180deg);
-
-
 
 }
